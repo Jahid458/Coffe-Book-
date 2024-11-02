@@ -1,10 +1,5 @@
-
 const Coffees = () => {
-  return (
-    <div>
-      
-    </div>
-  );
+  return <div>Coffees</div>;
 };
 
 export default Coffees;
