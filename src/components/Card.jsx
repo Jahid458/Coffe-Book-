@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom'
-
+import { FaTrashAlt } from "react-icons/fa";
 /* eslint-disable react/prop-types */
 const Card = ({ coffee, handleRemove }) => {
   const { pathname } = useLocation()
@@ -29,6 +29,7 @@ const Card = ({ coffee, handleRemove }) => {
           onClick={() => handleRemove(id)}
           className='absolute p-3 rounded-full cursor-pointer bg-warning -top-5 -right-5'
         >
+          <FaTrashAlt size={20}/>
         </div>
       )}
     </div>
