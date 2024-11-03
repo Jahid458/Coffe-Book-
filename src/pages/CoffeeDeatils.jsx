@@ -19,6 +19,7 @@ const CoffeeDeatils = () => {
     if(isExist){
       setIsFavorite(true)
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   },[data,id])
   
   const {
